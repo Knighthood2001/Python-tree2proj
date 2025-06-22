@@ -32,4 +32,4 @@ my_project
     └── sample.txt
 """
 
-ProjBuilder.build_from_tree_str(tree_str)
+ProjBuilder.build_from_tree(tree_str)

@@ -30,7 +30,7 @@ class ProjBuilder:
         os.makedirs(base_path, exist_ok=True)
         for child in self.tree.get("child", []):
             _create_node(child, base_path)
-    def build_from_tree_str(tree_str: str, base_path: str = None):
+    def build_from_tree(tree_str: str, base_path: str = None):
         """
         从树形字符串中构建项目结构（封装 Tree2Json + ProjBuilder）
         """

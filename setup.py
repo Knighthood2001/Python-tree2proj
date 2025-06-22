@@ -2,10 +2,11 @@ from setuptools import setup, find_packages
 
 setup(
     name="tree2proj",
-    version="0.1.0",
+    version="0.1.1",
     description="Generate project folders/files from JSON tree (via tree2json)",
     author="knighthood",
     author_email="2109695291@qq.com",
+    url="https://github.com/Knighthood2001/Python-tree2proj", 
     packages=find_packages(),
     include_package_data=True,
     install_requires=[

@@ -1,9 +1,9 @@
 [project]
 name = "tree2proj"
-version = "0.1.0"
+version = "0.1.1"
 description = "Generate project folders/files from JSON tree (via tree2json)"
 authors = [{name = "knighthood", email = "2109695291@qq.com"}]
-dependencies = ["tree2json>=0.1.3"]
+dependencies = ["tree2json>=0.1.3", "pyperclip>=1.8.0"]
 readme = "README.md"
 requires-python = ">=3.7"
 

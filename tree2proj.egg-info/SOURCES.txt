@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tests/test.py
+tests/test_build_from_tree.py
+tree2proj/__init__.py
+tree2proj/builder.py
+tree2proj/cli.py
+tree2proj/example.py
+tree2proj.egg-info/PKG-INFO
+tree2proj.egg-info/SOURCES.txt
+tree2proj.egg-info/dependency_links.txt
+tree2proj.egg-info/entry_points.txt
+tree2proj.egg-info/requires.txt
+tree2proj.egg-info/top_level.txt
