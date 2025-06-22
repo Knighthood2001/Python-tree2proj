@@ -1,2 +1,0 @@
-[console_scripts]
-tree2proj = tree2proj.cli:main
