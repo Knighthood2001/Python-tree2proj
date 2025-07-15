@@ -36,6 +36,7 @@ def main():
         try:
             parser = Tree2Json()
             parser.from_string(tree_str)
+            print("目录树内容如下：\n", tree_str)
             builder = ProjBuilder(parser.to_dict())
             builder.create_fs(base_path=args.output)
         except Exception as e:
